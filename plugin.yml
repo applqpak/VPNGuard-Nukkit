@@ -1,0 +1,25 @@
+name: VPNGuard
+version: 1.0.0
+author: applqpak
+api: ["1.0.0"]
+main: VPNGuard.Main
+commands:
+  vpnguard:
+    usage: /vpnguard <command>
+    description: Main command for VPNGuard.
+    permission: vpnguard.command
+permissions:
+  vpnguard.command:
+    default: true
+  vpnguard.command.clearcache:
+    default: op
+  vpnguard.command.clearip:
+    default: op
+  vpnguard.command.lookup:
+    default: op
+  vpnguard.command.ban:
+    default: op
+  vpnguard.command.unban:
+    default: op
+  vpnguard.command.about:
+    default: true
