@@ -13,6 +13,8 @@ import VPNGuard.libraries.Async;
 import VPNGuard.libraries.SimpleCache;
 import VPNGuard.libraries.CommandFunctions;
 
+import java.io.File;
+
 public class Main extends PluginBase implements Listener
 {
 
